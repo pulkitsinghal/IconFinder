@@ -7,15 +7,42 @@
 //
 
 #import "IconFinderAppDelegate.h"
+#import "IconFinderTableViewController.h"
+#import <RestKit/RestKit.h>
 
 @implementation IconFinderAppDelegate
-
 
 @synthesize window=_window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // 1) Initialize RestKit
+    [RKObjectManager objectManagerWithBaseURL:@"http://www.iconfinder.com/json"];
+    
+    [RKRequestQueue sharedQueue].showsNetworkActivityIndicatorWhenBusy = YES;
+
+    // 2) If JSON data is being returned with an incorrect mime-type, then setup the JSON parser with that mime-type
+    Class parserClass = nil;
+    NSSet* JSONParserClassNames = [NSSet setWithObjects:@"RKJSONParserJSONKit",
+                                   @"RKJSONParserYAJL",
+                                   @"RKJSONParserSBJSON", nil];    
+    for (NSString* parserClassName in JSONParserClassNames) {
+        parserClass = NSClassFromString(parserClassName);
+        if (parserClass) {
+            [[RKParserRegistry sharedRegistry] setParserClass:parserClass
+                                                  forMIMEType:@"text/html"];
+            break;
+        }
+    }
+
     // Override point for customization after application launch.
+    IconFinderTableViewController* tvc = [[IconFinderTableViewController alloc]
+                                          initWithNibName:@"IconFinderTableView"
+                                          bundle:nil];
+    tvc.title = @"IconFinder";
+    UINavigationController* nav = [[UINavigationController alloc] init];
+    [nav pushViewController:tvc animated:NO];
+    [self.window addSubview:nav.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

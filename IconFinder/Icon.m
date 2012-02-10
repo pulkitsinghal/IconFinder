@@ -8,19 +8,29 @@
 
 #import "Icon.h"
 
-
 @implementation Icon
 
-@synthesize uniqueID, size, tags, imageUrl;
+@synthesize identifier = _identifier;
+@synthesize size = _size;
+@synthesize tags = _tags;
+@synthesize imageUrl = _imageUrl;
+//@synthesize iconDetails = _iconDetails;
 
-+ (NSDictionary *)elementToPropertyMappings
+- (NSString*)tagsAsString
 {
-    return [NSDictionary dictionaryWithObjectsAndKeys:
-            @"id",@"uniqueID",
-            @"size",@"size",
-            @"tags",@"tags",
-            @"image",@"imageUrl",
-            nil];
+    NSString* tagsAsString = nil;
+    if ([self.tags count] == 0) {
+        tagsAsString = @"No tags available...";
+    } else {
+        for (int i = 0; i < [self.tags count]; i++) {
+            if (!tagsAsString) {
+                tagsAsString = [self.tags objectAtIndex:i];
+            } else {
+                tagsAsString = [tagsAsString stringByAppendingFormat:@",%@",[self.tags objectAtIndex:i]];
+            }
+        }
+    }
+    return tagsAsString;
 }
 
 @end

@@ -11,4 +11,13 @@
 
 @implementation IconDetails
 
+@synthesize author;
+@synthesize authorwebsite;
+@synthesize license;
+@synthesize licensewebsite;
+@synthesize iconsetwebsite;
+@synthesize attribution;
+@synthesize iconset;
+@synthesize iconsetid;
+
 @end

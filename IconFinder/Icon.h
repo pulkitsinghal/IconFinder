@@ -7,20 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <RestKit/RestKit.h>
+//#import "IconDetails.h"
 
-@interface Icon : RKObject {
-    NSNumber *uniqueId;
-    NSNumber *size;
-    NSArray *tags;
-    NSURL *imageUrl;
+@interface Icon : NSObject {
+    NSString* _identifier;
+    NSString* _size;
+    NSArray* _tags;
+    NSString* _imageUrl;
+    //IconDetails* _iconDetails;
 }
 
-//TODO: Find out the significance behind making these "nonatomic"
+@property (nonatomic,retain) NSString* identifier;
+@property (nonatomic,retain) NSString* size;
+@property (nonatomic,retain) NSArray* tags;
+@property (nonatomic,retain) NSString* imageUrl;
+//@property (nonatomic,retain) IconDetails* iconDetails;
 
-@property (nonatomic,retain) NSNumber *uniqueID;
-@property (nonatomic,retain) NSNumber *size;
-@property (nonatomic,retain) NSArray *tags;
-@property (nonatomic,retain) NSURL *imageUrl;
+- (NSString*)tagsAsString;
 
 @end
