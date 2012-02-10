@@ -1,0 +1,6 @@
+[submodule "RestKit"]
+	path = RestKit
+	url = git://github.com/twotoasters/RestKit.git
+[submodule "SDWebImage"]
+	path = SDWebImage
+	url = git://github.com/rs/SDWebImage.git
