@@ -2,7 +2,7 @@ This project currently works with iOS 4.x due to an older version of RestKit tha
 
 Downloads / Cloning:
 1) Use the following command so that you get the submodules in one go as well:
-    git clone --recursive https://<yourusername>@bitbucket.org/pulkitsinghal/shoppinpal.git
+    git clone --recursive git://github.com/pulkitsinghal/IconFinder.git
 2) If you forget to provide the --recursive flag, you can always download the submodules in a later command using:
     git submodule update --init --recursive
 
