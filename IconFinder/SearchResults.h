@@ -7,22 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <RestKit/RestKit.h>
 
-@interface SearchResult : RKObject {
-    NSString *searchTerms;
-    NSNumber *startPage;
-    NSNumber *totalResults;
-    NSNumber *startIndex;
-    NSNumber *itemsPerPage;
-    NSArray *icons;
+@interface SearchResults : NSObject {
+    NSString* _searchTerms;
+    NSNumber* _startPage;
+    NSNumber* _totalResults;
+    NSNumber* _startIndex;
+    NSNumber* _itemsPerPage;
+    //Icons* _icons;
+    NSArray* _icons;
 }
 
-@property (nonatomic,retain) NSString *searchTerms;
-@property (nonatomic,retain) NSNumber *startPage;
-@property (nonatomic,retain) NSNumber *totalResults;
-@property (nonatomic,retain) NSNumber *startIndex;
-@property (nonatomic,retain) NSNumber *itemsPerPage;
-@property (nonatomic,retain) NSArray *icons;
+@property (nonatomic,retain) NSString* searchTerms;
+@property (nonatomic,retain) NSNumber* startPage;
+@property (nonatomic,retain) NSNumber* totalResults;
+@property (nonatomic,retain) NSNumber* startIndex;
+@property (nonatomic,retain) NSNumber* itemsPerPage;
+@property (nonatomic,retain) NSArray*  icons;
 
 @end

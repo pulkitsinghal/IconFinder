@@ -6,27 +6,15 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "SearchResult.h"
+#import "SearchResults.h"
 
+@implementation SearchResults
 
-@implementation SearchResult
-
-@synthesize searchTerms, startPage, totalResults, startIndex, itemsPerPage, icons;
-
-+ (NSDictionary *)elementToPropertyMappings
-{
-    return [NSDictionary dictionaryWithObjectsAndKeys:
-            @"searchTerms",@"searchTerms",
-            @"startPage",@"startPage",
-            @"totalResults",@"totalResults",
-            @"startIndex",@"startIndex",
-            @"itemsPerPage",@"itemsPerPage",
-            nil];
-}
-
-+ (NSDictionary *)elementToRelationshipMappings
-{
-    return [NSDictionary dictionaryWithObject:@"icons" forKey:@"icons"];
-}
+@synthesize searchTerms  = _searchTerms;
+@synthesize startPage    = _startPage;
+@synthesize totalResults = _totalResults;
+@synthesize startIndex   = _startIndex;
+@synthesize itemsPerPage = _itemsPerPage;
+@synthesize icons        = _icons;
 
 @end
