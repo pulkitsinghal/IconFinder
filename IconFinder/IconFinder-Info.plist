@@ -16,7 +16,7 @@
 		<string>iconfinder_114x114.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>behemoth.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.behemoth.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
