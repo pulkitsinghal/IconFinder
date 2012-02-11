@@ -1,6 +1,13 @@
+This project currently works with iOS 4.x due to an older version of RestKit that is in use.
+
+Downloads / Cloning:
+1) Use the following command so that you get the submodules in one go as well:
+    git clone --recursive https://<yourusername>@bitbucket.org/pulkitsinghal/shoppinpal.git
+2) If you forget to provide the --recursive flag, you can always download the submodules in a later command using:
+    git submodule update --init --recursive
+
 Attributions:
 1) RestKit - framework is in use
 2) SDWebImage - framework is in use
 Make sure to check the LICENSE file as well.
 
-This project currently works with iOS 4.x due to an older version of RestKit that is in use.
