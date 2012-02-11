@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A728E2651397A97E008BCB43 /* empty_48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = A728E2641397A97E008BCB43 /* empty_48x48.png */; };
+		A728E27E1397B374008BCB43 /* IconFinderTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A728E27D1397B374008BCB43 /* IconFinderTableView.xib */; };
+		A7489AF61395590B008D846F /* libRestKitCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7489AF11395590B008D846F /* libRestKitCoreData.a */; };
+		A7489AF71395590B008D846F /* libRestKitJSONParserYAJL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7489AF21395590B008D846F /* libRestKitJSONParserYAJL.a */; };
+		A7489AF81395590B008D846F /* libRestKitNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7489AF31395590B008D846F /* libRestKitNetwork.a */; };
+		A7489AF91395590B008D846F /* libRestKitObjectMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7489AF41395590B008D846F /* libRestKitObjectMapping.a */; };
+		A7489AFA1395590B008D846F /* libRestKitSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7489AF51395590B008D846F /* libRestKitSupport.a */; };
+		A7489AFF1395590B008D846F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7489AFB1395590B008D846F /* CFNetwork.framework */; };
+		A7489B001395590B008D846F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7489AFC1395590B008D846F /* CoreData.framework */; };
+		A7489B011395590B008D846F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7489AFD1395590B008D846F /* MobileCoreServices.framework */; };
+		A7489B021395590B008D846F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7489AFE1395590B008D846F /* SystemConfiguration.framework */; };
+		A75168C713982F12004AA1E5 /* IconDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = A75168C613982F12004AA1E5 /* IconDetails.m */; };
+		A75168CD13983378004AA1E5 /* IconDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75168CB13983378004AA1E5 /* IconDetailsViewController.m */; };
+		A75168CE13983378004AA1E5 /* IconDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75168CC13983378004AA1E5 /* IconDetailsViewController.xib */; };
+		A7E5578114E6B31F00883D78 /* iconfinder_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E5577E14E6B31F00883D78 /* iconfinder_114x114.png */; };
+		A7E5578214E6B31F00883D78 /* iconfinder_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E5577F14E6B31F00883D78 /* iconfinder_512x512.png */; };
+		A7E5578314E6B31F00883D78 /* iconfinder_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E5578014E6B31F00883D78 /* iconfinder_57x57.png */; };
+		A7E5578614E6B36400883D78 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E5577C14E6B18900883D78 /* libSDWebImage.a */; };
+		A7F3AE5513D122B00058B74F /* iconfinder_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F3AE5313D122B00058B74F /* iconfinder_512x512.png */; };
+		A7F3AE5613D122B00058B74F /* iconfinder_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F3AE5413D122B00058B74F /* iconfinder_57x57.png */; };
+		A7F3AE5A13D123540058B74F /* iconfinder_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F3AE5913D123540058B74F /* iconfinder_114x114.png */; };
 		A7FFD764138EFE760011FF81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD763138EFE760011FF81 /* UIKit.framework */; };
 		A7FFD766138EFE760011FF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD765138EFE760011FF81 /* Foundation.framework */; };
 		A7FFD768138EFE760011FF81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FFD767138EFE760011FF81 /* CoreGraphics.framework */; };
@@ -17,25 +38,153 @@
 		A7FFD77B138EFE760011FF81 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7FFD779138EFE760011FF81 /* MainWindow_iPhone.xib */; };
 		A7FFD77F138EFE760011FF81 /* IconFinderAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FFD77E138EFE760011FF81 /* IconFinderAppDelegate_iPad.m */; };
 		A7FFD782138EFE760011FF81 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7FFD780138EFE760011FF81 /* MainWindow_iPad.xib */; };
+		A7FFD78A138EFEAD0011FF81 /* IconFinderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FFD789138EFEAD0011FF81 /* IconFinderTableViewController.m */; };
+		A7FFD7C3138F003D0011FF81 /* Icon.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FFD7BF138F003D0011FF81 /* Icon.m */; };
+		A7FFD7C4138F003D0011FF81 /* SearchResults.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FFD7C0138F003D0011FF81 /* SearchResults.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A7489ADA1395589F008D846F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7489AC61395589F008D846F /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A07FC1255161B00976E89;
+			remoteInfo = RestKitNetwork;
+		};
+		A7489ADC1395589F008D846F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7489AC61395589F008D846F /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A08031255162C00976E89;
+			remoteInfo = RestKitObjectMapping;
+		};
+		A7489ADE1395589F008D846F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7489AC61395589F008D846F /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A080C12551D3000976E89;
+			remoteInfo = RestKitSupport;
+		};
+		A7489AE01395589F008D846F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7489AC61395589F008D846F /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2590E64F125231F600531FA8;
+			remoteInfo = "RestKitJSONParser+YAJL";
+		};
+		A7489AE21395589F008D846F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7489AC61395589F008D846F /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2590E66B1252353700531FA8;
+			remoteInfo = "RestKitJSONParser+SBJSON";
+		};
+		A7489AE41395589F008D846F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7489AC61395589F008D846F /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73057FD11331AD2E001908EE;
+			remoteInfo = "RestKitJSONParser+JSONKit";
+		};
+		A7489AE61395589F008D846F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7489AC61395589F008D846F /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25BD43BD1340315800DBACDD;
+			remoteInfo = "RestKitXMLParser+Libxml";
+		};
+		A7489AE81395589F008D846F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7489AC61395589F008D846F /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A081412551D5300976E89;
+			remoteInfo = RestKitCoreData;
+		};
+		A7489AEA1395589F008D846F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7489AC61395589F008D846F /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2523360511E79F090048F9B4;
+			remoteInfo = RestKitThree20;
+		};
+		A7489AEC1395589F008D846F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7489AC61395589F008D846F /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F6C39A510FE5C95008F47C5;
+			remoteInfo = UISpec;
+		};
+		A7489AEF139558EE008D846F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7489AC61395589F008D846F /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 255B7588133BABBF00ED76AD;
+			remoteInfo = RestKit;
+		};
+		A7E5577B14E6B18900883D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7E5577414E6B18900883D78 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53922D6F148C55820056699D;
+			remoteInfo = SDWebImage;
+		};
+		A7E5578414E6B35A00883D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7E5577414E6B18900883D78 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 53922D6E148C55810056699D;
+			remoteInfo = SDWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A709231B1396599E00441240 /* libRestKitThree20.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitThree20.a; sourceTree = SOURCE_ROOT; };
+		A728E2641397A97E008BCB43 /* empty_48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty_48x48.png; sourceTree = "<group>"; };
+		A728E27D1397B374008BCB43 /* IconFinderTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconFinderTableView.xib; sourceTree = "<group>"; };
+		A7489AC61395589F008D846F /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		A7489AF11395590B008D846F /* libRestKitCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitCoreData.a; sourceTree = SOURCE_ROOT; };
+		A7489AF21395590B008D846F /* libRestKitJSONParserYAJL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitJSONParserYAJL.a; sourceTree = SOURCE_ROOT; };
+		A7489AF31395590B008D846F /* libRestKitNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitNetwork.a; sourceTree = SOURCE_ROOT; };
+		A7489AF41395590B008D846F /* libRestKitObjectMapping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitObjectMapping.a; sourceTree = SOURCE_ROOT; };
+		A7489AF51395590B008D846F /* libRestKitSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitSupport.a; sourceTree = SOURCE_ROOT; };
+		A7489AFB1395590B008D846F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A7489AFC1395590B008D846F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A7489AFD1395590B008D846F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A7489AFE1395590B008D846F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A75168C513982F12004AA1E5 /* IconDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDetails.h; sourceTree = "<group>"; };
+		A75168C613982F12004AA1E5 /* IconDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDetails.m; sourceTree = "<group>"; };
+		A75168CA13983378004AA1E5 /* IconDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDetailsViewController.h; sourceTree = "<group>"; };
+		A75168CB13983378004AA1E5 /* IconDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDetailsViewController.m; sourceTree = "<group>"; };
+		A75168CC13983378004AA1E5 /* IconDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconDetailsViewController.xib; sourceTree = "<group>"; };
+		A7E5577414E6B18900883D78 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		A7E5577E14E6B31F00883D78 /* iconfinder_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_114x114.png; sourceTree = "<group>"; };
+		A7E5577F14E6B31F00883D78 /* iconfinder_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_512x512.png; sourceTree = "<group>"; };
+		A7E5578014E6B31F00883D78 /* iconfinder_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_57x57.png; sourceTree = "<group>"; };
+		A7F3AE5313D122B00058B74F /* iconfinder_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_512x512.png; sourceTree = "<group>"; };
+		A7F3AE5413D122B00058B74F /* iconfinder_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_57x57.png; sourceTree = "<group>"; };
+		A7F3AE5913D123540058B74F /* iconfinder_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_114x114.png; sourceTree = "<group>"; };
 		A7FFD75F138EFE760011FF81 /* IconFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FFD763138EFE760011FF81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A7FFD765138EFE760011FF81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7FFD767138EFE760011FF81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A7FFD76B138EFE760011FF81 /* IconFinder-Info.plist */ = {isa = PBXFileReference; path = "IconFinder-Info.plist"; sourceTree = "<group>"; };
+		A7FFD76B138EFE760011FF81 /* IconFinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IconFinder-Info.plist"; sourceTree = "<group>"; };
 		A7FFD76D138EFE760011FF81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A7FFD76F138EFE760011FF81 /* IconFinder-Prefix.pch */ = {isa = PBXFileReference; path = "IconFinder-Prefix.pch"; sourceTree = "<group>"; };
+		A7FFD76F138EFE760011FF81 /* IconFinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IconFinder-Prefix.pch"; sourceTree = "<group>"; };
 		A7FFD770138EFE760011FF81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A7FFD772138EFE760011FF81 /* IconFinderAppDelegate.h */ = {isa = PBXFileReference; path = IconFinderAppDelegate.h; sourceTree = "<group>"; };
+		A7FFD772138EFE760011FF81 /* IconFinderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconFinderAppDelegate.h; sourceTree = "<group>"; };
 		A7FFD773138EFE760011FF81 /* IconFinderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconFinderAppDelegate.m; sourceTree = "<group>"; };
-		A7FFD776138EFE760011FF81 /* IconFinderAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = IconFinderAppDelegate_iPhone.h; path = iPhone/IconFinderAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		A7FFD776138EFE760011FF81 /* IconFinderAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IconFinderAppDelegate_iPhone.h; path = iPhone/IconFinderAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		A7FFD777138EFE760011FF81 /* IconFinderAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IconFinderAppDelegate_iPhone.m; path = iPhone/IconFinderAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		A7FFD77A138EFE760011FF81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		A7FFD77D138EFE760011FF81 /* IconFinderAppDelegate_iPad.h */ = {isa = PBXFileReference; name = IconFinderAppDelegate_iPad.h; path = iPad/IconFinderAppDelegate_iPad.h; sourceTree = "<group>"; };
+		A7FFD77D138EFE760011FF81 /* IconFinderAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IconFinderAppDelegate_iPad.h; path = iPad/IconFinderAppDelegate_iPad.h; sourceTree = "<group>"; };
 		A7FFD77E138EFE760011FF81 /* IconFinderAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IconFinderAppDelegate_iPad.m; path = iPad/IconFinderAppDelegate_iPad.m; sourceTree = "<group>"; };
 		A7FFD781138EFE760011FF81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		A7FFD788138EFEAD0011FF81 /* IconFinderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconFinderTableViewController.h; sourceTree = "<group>"; };
+		A7FFD789138EFEAD0011FF81 /* IconFinderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconFinderTableViewController.m; sourceTree = "<group>"; };
+		A7FFD7BF138F003D0011FF81 /* Icon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Icon.m; sourceTree = "<group>"; };
+		A7FFD7C0138F003D0011FF81 /* SearchResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResults.m; sourceTree = "<group>"; };
+		A7FFD7C1138F003D0011FF81 /* SearchResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResults.h; sourceTree = "<group>"; };
+		A7FFD7C2138F003D0011FF81 /* Icon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Icon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +192,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E5578614E6B36400883D78 /* libSDWebImage.a in Frameworks */,
+				A7489AFF1395590B008D846F /* CFNetwork.framework in Frameworks */,
+				A7489B001395590B008D846F /* CoreData.framework in Frameworks */,
+				A7489B011395590B008D846F /* MobileCoreServices.framework in Frameworks */,
+				A7489B021395590B008D846F /* SystemConfiguration.framework in Frameworks */,
+				A7489AF61395590B008D846F /* libRestKitCoreData.a in Frameworks */,
+				A7489AF71395590B008D846F /* libRestKitJSONParserYAJL.a in Frameworks */,
+				A7489AF81395590B008D846F /* libRestKitNetwork.a in Frameworks */,
+				A7489AF91395590B008D846F /* libRestKitObjectMapping.a in Frameworks */,
+				A7489AFA1395590B008D846F /* libRestKitSupport.a in Frameworks */,
 				A7FFD764138EFE760011FF81 /* UIKit.framework in Frameworks */,
 				A7FFD766138EFE760011FF81 /* Foundation.framework in Frameworks */,
 				A7FFD768138EFE760011FF81 /* CoreGraphics.framework in Frameworks */,
@@ -52,10 +211,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7489AC71395589F008D846F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7489ADB1395589F008D846F /* libRestKitNetwork.a */,
+				A7489ADD1395589F008D846F /* libRestKitObjectMapping.a */,
+				A7489ADF1395589F008D846F /* libRestKitSupport.a */,
+				A7489AE11395589F008D846F /* libRestKitJSONParserYAJL.a */,
+				A7489AE31395589F008D846F /* libRestKitJSONParserSBJSON.a */,
+				A7489AE51395589F008D846F /* libRestKitJSONParserJSONKit.a */,
+				A7489AE71395589F008D846F /* libRestKitXMLParserLibxml.a */,
+				A7489AE91395589F008D846F /* libRestKitCoreData.a */,
+				A7489AEB1395589F008D846F /* libRestKitThree20.a */,
+				A7489AED1395589F008D846F /* UISpec.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7E5577514E6B18900883D78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7E5577C14E6B18900883D78 /* libSDWebImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7E5577D14E6B31F00883D78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7E5577E14E6B31F00883D78 /* iconfinder_114x114.png */,
+				A7E5577F14E6B31F00883D78 /* iconfinder_512x512.png */,
+				A7E5578014E6B31F00883D78 /* iconfinder_57x57.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A7FFD754138EFE760011FF81 = {
 			isa = PBXGroup;
 			children = (
+				A7E5577414E6B18900883D78 /* SDWebImage.xcodeproj */,
+				A7489AC61395589F008D846F /* RestKit.xcodeproj */,
 				A7FFD769138EFE760011FF81 /* IconFinder */,
+				A7E5577D14E6B31F00883D78 /* Resources */,
 				A7FFD762138EFE760011FF81 /* Frameworks */,
 				A7FFD760138EFE760011FF81 /* Products */,
 			);
@@ -72,6 +269,16 @@
 		A7FFD762138EFE760011FF81 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7489AFB1395590B008D846F /* CFNetwork.framework */,
+				A7489AFC1395590B008D846F /* CoreData.framework */,
+				A7489AFD1395590B008D846F /* MobileCoreServices.framework */,
+				A7489AFE1395590B008D846F /* SystemConfiguration.framework */,
+				A7489AF11395590B008D846F /* libRestKitCoreData.a */,
+				A7489AF21395590B008D846F /* libRestKitJSONParserYAJL.a */,
+				A7489AF31395590B008D846F /* libRestKitNetwork.a */,
+				A7489AF41395590B008D846F /* libRestKitObjectMapping.a */,
+				A7489AF51395590B008D846F /* libRestKitSupport.a */,
+				A709231B1396599E00441240 /* libRestKitThree20.a */,
 				A7FFD763138EFE760011FF81 /* UIKit.framework */,
 				A7FFD765138EFE760011FF81 /* Foundation.framework */,
 				A7FFD767138EFE760011FF81 /* CoreGraphics.framework */,
@@ -82,6 +289,18 @@
 		A7FFD769138EFE760011FF81 /* IconFinder */ = {
 			isa = PBXGroup;
 			children = (
+				A7FFD7C2138F003D0011FF81 /* Icon.h */,
+				A7FFD7BF138F003D0011FF81 /* Icon.m */,
+				A75168C513982F12004AA1E5 /* IconDetails.h */,
+				A75168C613982F12004AA1E5 /* IconDetails.m */,
+				A7FFD7C1138F003D0011FF81 /* SearchResults.h */,
+				A7FFD7C0138F003D0011FF81 /* SearchResults.m */,
+				A7FFD788138EFEAD0011FF81 /* IconFinderTableViewController.h */,
+				A7FFD789138EFEAD0011FF81 /* IconFinderTableViewController.m */,
+				A728E27D1397B374008BCB43 /* IconFinderTableView.xib */,
+				A75168CA13983378004AA1E5 /* IconDetailsViewController.h */,
+				A75168CB13983378004AA1E5 /* IconDetailsViewController.m */,
+				A75168CC13983378004AA1E5 /* IconDetailsViewController.xib */,
 				A7FFD772138EFE760011FF81 /* IconFinderAppDelegate.h */,
 				A7FFD773138EFE760011FF81 /* IconFinderAppDelegate.m */,
 				A7FFD775138EFE760011FF81 /* iPhone */,
@@ -94,6 +313,10 @@
 		A7FFD76A138EFE760011FF81 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A728E2641397A97E008BCB43 /* empty_48x48.png */,
+				A7F3AE5313D122B00058B74F /* iconfinder_512x512.png */,
+				A7F3AE5913D123540058B74F /* iconfinder_114x114.png */,
+				A7F3AE5413D122B00058B74F /* iconfinder_57x57.png */,
 				A7FFD76B138EFE760011FF81 /* IconFinder-Info.plist */,
 				A7FFD76C138EFE760011FF81 /* InfoPlist.strings */,
 				A7FFD76F138EFE760011FF81 /* IconFinder-Prefix.pch */,
@@ -136,6 +359,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				A7E5578514E6B35A00883D78 /* PBXTargetDependency */,
+				A7489AF0139558EE008D846F /* PBXTargetDependency */,
 			);
 			name = IconFinder;
 			productName = IconFinder;
@@ -157,12 +382,102 @@
 			mainGroup = A7FFD754138EFE760011FF81;
 			productRefGroup = A7FFD760138EFE760011FF81 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A7489AC71395589F008D846F /* Products */;
+					ProjectRef = A7489AC61395589F008D846F /* RestKit.xcodeproj */;
+				},
+				{
+					ProductGroup = A7E5577514E6B18900883D78 /* Products */;
+					ProjectRef = A7E5577414E6B18900883D78 /* SDWebImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A7FFD75E138EFE760011FF81 /* IconFinder */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A7489ADB1395589F008D846F /* libRestKitNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitNetwork.a;
+			remoteRef = A7489ADA1395589F008D846F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7489ADD1395589F008D846F /* libRestKitObjectMapping.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitObjectMapping.a;
+			remoteRef = A7489ADC1395589F008D846F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7489ADF1395589F008D846F /* libRestKitSupport.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitSupport.a;
+			remoteRef = A7489ADE1395589F008D846F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7489AE11395589F008D846F /* libRestKitJSONParserYAJL.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserYAJL.a;
+			remoteRef = A7489AE01395589F008D846F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7489AE31395589F008D846F /* libRestKitJSONParserSBJSON.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserSBJSON.a;
+			remoteRef = A7489AE21395589F008D846F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7489AE51395589F008D846F /* libRestKitJSONParserJSONKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserJSONKit.a;
+			remoteRef = A7489AE41395589F008D846F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7489AE71395589F008D846F /* libRestKitXMLParserLibxml.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitXMLParserLibxml.a;
+			remoteRef = A7489AE61395589F008D846F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7489AE91395589F008D846F /* libRestKitCoreData.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitCoreData.a;
+			remoteRef = A7489AE81395589F008D846F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7489AEB1395589F008D846F /* libRestKitThree20.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitThree20.a;
+			remoteRef = A7489AEA1395589F008D846F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7489AED1395589F008D846F /* UISpec.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UISpec.app;
+			remoteRef = A7489AEC1395589F008D846F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7E5577C14E6B18900883D78 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = A7E5577B14E6B18900883D78 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A7FFD75D138EFE760011FF81 /* Resources */ = {
@@ -172,6 +487,15 @@
 				A7FFD76E138EFE760011FF81 /* InfoPlist.strings in Resources */,
 				A7FFD77B138EFE760011FF81 /* MainWindow_iPhone.xib in Resources */,
 				A7FFD782138EFE760011FF81 /* MainWindow_iPad.xib in Resources */,
+				A728E2651397A97E008BCB43 /* empty_48x48.png in Resources */,
+				A728E27E1397B374008BCB43 /* IconFinderTableView.xib in Resources */,
+				A75168CE13983378004AA1E5 /* IconDetailsViewController.xib in Resources */,
+				A7F3AE5513D122B00058B74F /* iconfinder_512x512.png in Resources */,
+				A7F3AE5613D122B00058B74F /* iconfinder_57x57.png in Resources */,
+				A7F3AE5A13D123540058B74F /* iconfinder_114x114.png in Resources */,
+				A7E5578114E6B31F00883D78 /* iconfinder_114x114.png in Resources */,
+				A7E5578214E6B31F00883D78 /* iconfinder_512x512.png in Resources */,
+				A7E5578314E6B31F00883D78 /* iconfinder_57x57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,10 +510,28 @@
 				A7FFD774138EFE760011FF81 /* IconFinderAppDelegate.m in Sources */,
 				A7FFD778138EFE760011FF81 /* IconFinderAppDelegate_iPhone.m in Sources */,
 				A7FFD77F138EFE760011FF81 /* IconFinderAppDelegate_iPad.m in Sources */,
+				A7FFD78A138EFEAD0011FF81 /* IconFinderTableViewController.m in Sources */,
+				A7FFD7C3138F003D0011FF81 /* Icon.m in Sources */,
+				A7FFD7C4138F003D0011FF81 /* SearchResults.m in Sources */,
+				A75168C713982F12004AA1E5 /* IconDetails.m in Sources */,
+				A75168CD13983378004AA1E5 /* IconDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7489AF0139558EE008D846F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = A7489AEF139558EE008D846F /* PBXContainerItemProxy */;
+		};
+		A7E5578514E6B35A00883D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			targetProxy = A7E5578414E6B35A00883D78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A7FFD76C138EFE760011FF81 /* InfoPlist.strings */ = {
@@ -223,6 +565,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -231,7 +574,18 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SOURCE_ROOT)/RestKit/Build\"",
+					"\"$(SOURCE_ROOT)/SDWebImage\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SOURCE_ROOT)/RestKit/Build/$(BUILD_STYLE)-$(PLATFORM_NAME)\"";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -241,13 +595,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SOURCE_ROOT)/RestKit/Build\"",
+					"\"$(SOURCE_ROOT)/SDWebImage\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SOURCE_ROOT)/RestKit/Build/$(BUILD_STYLE)-$(PLATFORM_NAME)\"";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -262,7 +628,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IconFinder/IconFinder-Prefix.pch";
 				INFOPLIST_FILE = "IconFinder/IconFinder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -271,12 +644,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pulkit Singhal (48H637MAMR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pulkit Singhal (48H637MAMR)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IconFinder/IconFinder-Prefix.pch";
 				INFOPLIST_FILE = "IconFinder/IconFinder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6199D5C2-95AD-4084-902F-26F934E2F7A0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6199D5C2-95AD-4084-902F-26F934E2F7A0";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -300,6 +684,7 @@
 				A7FFD787138EFE760011FF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
